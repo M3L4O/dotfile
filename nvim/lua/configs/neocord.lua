@@ -1,16 +1,13 @@
-require("presence").setup {
+require("neocord").setup {
   -- General options
-  auto_update = true,
-  neovim_image_text = "The One True Text Editor",
-  main_image = "file",
-  client_id = "793271441293967371",
-  log_level = nil,
-  debounce_timeout = 10,
-  enable_line_number = false,
-  blacklist = {},
-  buttons = true,
-  file_assets = {},
+  logo = "auto",
+  logo_tooltip = nil,
+  main_image = "language",
+  client_id = "1157438221865717891",
   show_time = true,
+  global_timer = false,
+
+
   editing_text = "Editing %s",
   file_explorer_text = "Browsing %s",
   git_commit_text = "Committing changes",
@@ -18,4 +15,5 @@ require("presence").setup {
   reading_text = "Reading %s",
   workspace_text = "Working on %s",
   line_number_text = "Line %s out of %s",
+  terminal_text = "Using Terminal",
 }
